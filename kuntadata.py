@@ -26,3 +26,4 @@ syntyneet_min = yhdistetty_taulukko[yhdistetty_taulukko["Syntyneiden enemmyys, h
 syntyneet_keskiarvo = yhdistetty_taulukko["Syntyneiden enemmyys, henkilöä"].mean()
 syntyneet_mediaani = yhdistetty_taulukko["Syntyneiden enemmyys, henkilöä"].median()
 
+yhdistetty_taulukko.to_csv("kuntien_vakilukudata.csv")
